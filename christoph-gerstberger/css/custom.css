@@ -1,0 +1,93 @@
+.name{
+    padding: 2rem 1rem 1rem;
+}
+
+.header{
+    text-align: center;
+}
+
+.navbar{
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.navbar-list{
+    overflow: auto;
+    white-space: nowrap;
+}
+.navbar-list-item{
+    padding: 1rem 1rem 1rem;
+    display: inline-block;
+}
+.navbar-list-item:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.navbar-list-item-selected{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.navbar-list-item-link{
+    text-decoration: none;
+    color: #222;
+}
+.navbar-list-item-link:hover{
+    color: #222;
+}
+
+.main-tabs{
+    padding: 2rem 1rem 2rem;
+    text-align: justify;
+}
+
+.display-none{
+    display: none;
+}
+
+/* --------------------- General ---------------------
+   ---------------------------------------------------  */
+hr{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.mySection{
+    padding-bottom: 3rem;
+}
+.mySectionRow{
+    padding: 0rem 0rem 1rem;
+}
+
+/* ---------------- Curriculum Vitae -----------------
+   ---------------------------------------------------  */
+
+
+/* --------------------- Gallery ---------------------
+   ---------------------------------------------------  */
+.galleryImg{
+    height: auto; 
+    width: auto; 
+    max-width: 100%;
+    max-height: 25rem;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 1rem;
+}
+.galleryImg:hover{
+    border:0.5rem solid #222;
+    cursor: pointer;
+}
+
+/* --------------------- Videos ----------------------
+   ---------------------------------------------------  */
+.videoSample{
+    height: auto; 
+    width: auto; 
+    max-width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 1rem;
+}

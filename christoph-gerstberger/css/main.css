@@ -1,0 +1,43 @@
+html,body {
+    margin:0px;
+    padding:0px;
+    height:100%;
+    width:100%;
+}
+
+body{
+
+}
+
+.container{
+
+}
+
+.navbar{
+    min-width: 100%;
+    width: auto !important;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height:50px;
+    text-align:left; 
+    display:table;
+}
+
+.navbar h4{
+    display:table-cell; vertical-align:middle
+}
+
+.menu{
+    min-height: 100%;
+    height: auto !important;
+    background-color: grey;
+    height: 100%;
+    width: 200px;
+    float: left;
+}
+
+.main{
+    width: available;
+    float: left;
+}
